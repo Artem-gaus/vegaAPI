@@ -9,5 +9,6 @@ namespace vegaAPI.Persistence
             : base(options)
         {}
         public DbSet<Make> Makes { get; set; }
+        public DbSet<Feature> Features { get; set; }
     }
 }
