@@ -1,0 +1,10 @@
+B:\Job\VegaSeparate\vegaAPI\bin\Debug\netcoreapp2.0\vegaAPI.deps.json
+B:\Job\VegaSeparate\vegaAPI\bin\Debug\netcoreapp2.0\vegaAPI.runtimeconfig.json
+B:\Job\VegaSeparate\vegaAPI\bin\Debug\netcoreapp2.0\vegaAPI.runtimeconfig.dev.json
+B:\Job\VegaSeparate\vegaAPI\bin\Debug\netcoreapp2.0\vegaAPI.dll
+B:\Job\VegaSeparate\vegaAPI\bin\Debug\netcoreapp2.0\vegaAPI.pdb
+B:\Job\VegaSeparate\vegaAPI\obj\Debug\netcoreapp2.0\vegaAPI.csproj.CoreCompileInputs.cache
+B:\Job\VegaSeparate\vegaAPI\obj\Debug\netcoreapp2.0\vegaAPI.AssemblyInfoInputs.cache
+B:\Job\VegaSeparate\vegaAPI\obj\Debug\netcoreapp2.0\vegaAPI.AssemblyInfo.cs
+B:\Job\VegaSeparate\vegaAPI\obj\Debug\netcoreapp2.0\vegaAPI.dll
+B:\Job\VegaSeparate\vegaAPI\obj\Debug\netcoreapp2.0\vegaAPI.pdb
