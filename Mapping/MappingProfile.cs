@@ -38,7 +38,7 @@ namespace vegaAPI.Mapping
                     //         removedFeatures.Add(f);
                     var removedFeatures = v.Features.Where(f => !vr.Features.Contains(f.FeatureId));
                     foreach(var f in removedFeatures)
-                        v.Features.Remove(f);
+                        v.Features.Remove(f); // not work 
 
                     // Add new feature
                     // foreach(var id in vr.Features)
