@@ -27,6 +27,7 @@ namespace vegaAPI
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddScoped<IVehicleRepository, VehicleRepository>();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
 
             services.AddCors();
             services.AddAutoMapper();
