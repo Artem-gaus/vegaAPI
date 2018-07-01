@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using System.Linq;
 using AutoMapper;
 using vegaAPI.Controllers.Resources;
-using vegaAPI.Models;
+using vegaAPI.Core.Models;
 
 namespace vegaAPI.Mapping
 {
