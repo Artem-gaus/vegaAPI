@@ -27,10 +27,12 @@ namespace vegaAPI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddCors();
+
             services.AddScoped<IVehicleRepository, VehicleRepository>();
             services.AddScoped<IUnitOfWork, UnitOfWork>();
 
-            services.AddCors();
+            
             services.AddAutoMapper();
 
             services.AddDbContext<VegaDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("Default")));
@@ -46,7 +48,10 @@ namespace vegaAPI
                 app.UseDeveloperExceptionPage();
             }
             app.UseCors(builder =>
-                builder.WithOrigins("http://localhost:4200"));
+                builder.WithOrigins("http://localhost:4200")
+                    .AllowAnyMethod()
+                    .AllowAnyHeader()
+                );
 
             app.UseMvc();
         }
